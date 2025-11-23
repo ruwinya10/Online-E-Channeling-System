@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+body {
+    background: #f4f4f9;
+    font-family: 'Inter', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1.text-center {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    letter-spacing: -0.5px;
+}
+
+form {
+    background-color: #005aa7 !important;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #dfe6e9;
+    padding: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+    outline: none;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-light:hover {
+    background-color: #e9ecef;
+    transform: translateY(-1px);
+}
+
+.btn-light:active {
+    transform: translateY(0);
+}
+
+.doctor-card {
+    margin-bottom: 30px;
+    margin-left: 20px; /* Added to prevent leftward shift */
+    margin-right: 0; /* Added to ensure symmetry */
+    background: #ffffff;
+    border: 2px solid #005aa7;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    overflow: hidden;
+    width: 270px;
+    height: 320px;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    background-color: #eceff1;
+}
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.doctor-img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 3px solid #dfe6e9;
+    transition: border-color 0.3s ease;
+}
+
+.doctor-img.bg-secondary {
+    background-color: #6c757d !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.card-title {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.card-text.text-muted {
+    color: #6c757d !important;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
+.availability-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.availability-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.availability-btn:active {
+    transform: translateY(0);
+}
+
+/* Animation for page load */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .container.my-5 {
+        padding: 20px;
+    }
+
+    h1.text-center {
+        font-size: 2rem;
+    }
+
+    .doctor-card {
+        margin-bottom: 20px;
+        width: 260px;
+        height: 320px;
+    }
+
+    .doctor-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+
+    .btn-light {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .row.g-3 > div {
+        margin-bottom: 15px;
+    }
+
+    .doctor-card {
+        width: 260px;
+        height: 320px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text.text-muted {
+        font-size: 0.9rem;
+    }
+
+    .availability-btn {
+        font-size: 0.8rem;
+        padding: 7px 14px;
+    }
+}
+
+/* Add this new rule at the end of the file */
+.row.g-0.justify-content-center {
+    gap: 4px; /* Minimal gap between cards */
+}
+
+.row.g-0.justify-content-center > .col-lg-3,
+.row.g-0.justify-content-center > .col-md-5,
+.row.g-0.justify-content-center > .col-sm-12 {
+    padding-left: 0;
+    padding-right: 0;
+}

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" 
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+		 http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+		 version="3.0">
+		 
+<!--  Welcome page  -->
+<welcome-file-list>
+<welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+<!--  LoginServlet  -->
+<servlet>
+<servlet-name>LoginServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LoginServlet</servlet-name>
+<url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+<!--  LogoutServlet  -->
+<servlet>
+<servlet-name>LogoutServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LogoutServlet</servlet-name>
+<url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+<!--  RegisterServlet  -->
+<servlet>
+<servlet-name>RegisterServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>RegisterServlet</servlet-name>
+<url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+<!--  ProfileServlet  -->
+<servlet>
+<servlet-name>ProfileServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.ProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ProfileServlet</servlet-name>
+<url-pattern>/ProfileServlet</url-pattern>
+</servlet-mapping>
+<!--  UpdateProfileServlet  -->
+<servlet>
+<servlet-name>UpdateProfileServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.UpdateProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateProfileServlet</servlet-name>
+<url-pattern>/UpdateProfileServlet</url-pattern>
+</servlet-mapping>
+<!--  DeleteProfileServlet  -->
+<servlet>
+<servlet-name>DeleteProfileServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.DeleteProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteProfileServlet</servlet-name>
+<url-pattern>/DeleteProfileServlet</url-pattern>
+</servlet-mapping>
+<!--  ChangePasswordServlet  -->
+<servlet>
+<servlet-name>ChangePasswordServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.ChangePasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ChangePasswordServlet</servlet-name>
+<url-pattern>/ChangePasswordServlet</url-pattern>
+</servlet-mapping>
+<!--  CheckUserExists  -->
+<servlet>
+<servlet-name>CheckUserExists</servlet-name>
+<servlet-class>com.echannelling.servlet.CheckUserExists</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CheckUserExists</servlet-name>
+<url-pattern>/CheckUserExists</url-pattern>
+</servlet-mapping>
+<!--  CreatePatientServlet  -->
+<servlet>
+<servlet-name>CreatePatientServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.CreatePatientServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>CreatePatientServlet</servlet-name>
+<url-pattern>/CreatePatientServlet</url-pattern>
+</servlet-mapping>
+<!--  DeletePatientServlet  -->
+<servlet>
+<servlet-name>DeletePatientServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.DeletePatientServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeletePatientServlet</servlet-name>
+<url-pattern>/DeletePatientServlet</url-pattern>
+</servlet-mapping>
+<!--  ContactServlet  -->
+<servlet>
+<servlet-name>ContactServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.ContactServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ContactServlet</servlet-name>
+<url-pattern>/ContactServlet</url-pattern>
+</servlet-mapping>
+<!--  FeedbackServlet  -->
+<servlet>
+<servlet-name>FeedbackServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.FeedbackServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>FeedbackServlet</servlet-name>
+<url-pattern>/FeedbackServlet</url-pattern>
+</servlet-mapping>
+<!--  AddDoctorServlet  -->
+<servlet>
+<servlet-name>AddDoctorServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.AddDoctorServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddDoctorServlet</servlet-name>
+<url-pattern>/AddDoctorServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>LabTestInsertServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.LabTestInsertServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LabTestInsertServlet</servlet-name>
+<url-pattern>/LabTestInsertServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeleteLabTestServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.DeleteLabTestServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteLabTestServlet</servlet-name>
+<url-pattern>/DeleteLabTestServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>LabTestBookingServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.LabTestBookingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LabTestBookingServlet</servlet-name>
+<url-pattern>/LabTestBookingServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>LabAppointmentBookingServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.LabAppointmentBookingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>LabAppointmentBookingServlet</servlet-name>
+<url-pattern>/LabAppointmentBookingServlet</url-pattern>
+</servlet-mapping>
+<!--  SearchDoctorsServerlet Declaration  -->
+<servlet>
+<servlet-name>SearchDoctorsServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.SearchDoctorsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>SearchDoctorsServlet</servlet-name>
+<url-pattern>/SearchDoctorsServlet</url-pattern>
+</servlet-mapping>
+<!--  InsertAppointmentServerlet Declaration  -->
+<servlet>
+<servlet-name>InsertAppointmentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.InsertAppointmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>InsertAppointmentServlet</servlet-name>
+<url-pattern>/InsertAppointmentServlet</url-pattern>
+</servlet-mapping>
+<!--  GetAllAppointmentServerlet Declaration  -->
+<servlet>
+<servlet-name>GetAllAppointmentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.GetAllAppointmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GetAllAppointmentServlet</servlet-name>
+<url-pattern>/GetAllAppointment</url-pattern>
+</servlet-mapping>
+<!--  UpdateAppointmentServerlet Declaration  -->
+<servlet>
+<servlet-name>UpdateAppointmentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.UpdateAppointmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateAppointmentServlet</servlet-name>
+<url-pattern>/UpdateAppointmentServlet</url-pattern>
+</servlet-mapping>
+<!--  InsertAppointmentPaymentServerlet Declaration  -->
+<servlet>
+<servlet-name>InsertAppointmentPaymentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.InsertAppointmentPaymentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>InsertAppointmentPaymentServlet</servlet-name>
+<url-pattern>/InsertAppointmentPaymentServlet</url-pattern>
+</servlet-mapping>
+<!--  GetAllPaymentServerlet Declaration  -->
+<servlet>
+<servlet-name>GetAllPaymentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.GetAllPaymentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>GetAllPaymentServlet</servlet-name>
+<url-pattern>/GetAllPaymentServlet</url-pattern>
+</servlet-mapping>
+<!--  UpdateAppointmentPaymentServerlet Declaration  -->
+<servlet>
+<servlet-name>UpdateAppointPaymentmentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.UpdateAppointmentPaymentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateAppointmentPaymentServlet</servlet-name>
+<url-pattern>/UpdateAppointmentPaymentServlet</url-pattern>
+</servlet-mapping>
+<!--  DeleteAppointmentServerlet Declaration  -->
+<servlet>
+<servlet-name>DeleteAppointmentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.DeleteAppointmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteAppointmentServlet</servlet-name>
+<url-pattern>/DeleteAppointmentServlet</url-pattern>
+</servlet-mapping>
+<!--  ConfirmAppointmentServerlet Declaration  -->
+<servlet>
+<servlet-name>ConfirmAppointmentServlet</servlet-name>
+<servlet-class>com.echannelling.servlet.ConfirmAppointmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>ConfirmAppointmentServlet</servlet-name>
+<url-pattern>/ConfirmAppointmentServlet</url-pattern>
+</servlet-mapping>
+</web-app>

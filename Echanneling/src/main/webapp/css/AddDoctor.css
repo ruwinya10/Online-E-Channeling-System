@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 40px; 
+	background-color: #f9f9f9;
+}
+
+.form-container { 
+	max-width: 900px; 
+	margin: 0 auto;
+ }
+ 
+h3 {
+   color: #333;
+}
+
+h1 {
+   color: #333;
+   text-align:center;
+}
+
+form {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="file"],
+input[type="select"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select[name="title"],
+select[name="gender"],
+select[name="day"]{
+	width: 103%;
+	padding: 8px;       /* Consistent with text inputs */
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 5px;
+	background-color: white;
+}
+	
+textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc !important;
+  	border-radius: 4px !important;	
+}
+	
+input[type="submit"],
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #1e70c1;
+}
+
+.availability-section {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.availabilityEntry {
+    border: 1px dashed #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 5px;
+}
+    
+th, td {
+    padding: 8px; 
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+.availability-section {
+    margin-top: 20px; 
+} 
+
+/* Style for datetime-local input to match other fields */
+input[type="datetime-local"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for datalist inputs (Specialization, Hospital) */
+input[list] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Ensure selects and inputs are aligned */
+select[name="day"],
+select[name="title"],
+select[name="gender"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="datetime-local"],
+input[list] {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}

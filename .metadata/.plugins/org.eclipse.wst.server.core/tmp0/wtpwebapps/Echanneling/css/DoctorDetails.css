@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+.availability-table {
+	margin-top: 10px;
+	border: 1px solid #dee2e6;
+}
+
+.table th, .table td {
+	padding: 8px;
+}
+
+body {
+	background-color: #f9f9f9;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+	color: #343a40;
+	font-weight: 600;
+}
+
+.btn {
+	margin-right: 5px;
+}
+
+.container {
+	background-color: #ffffff;
+	padding: 25px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.table {
+	background-color: #fff;
+}
+
+.table thead {
+   background-color: #0d6efd;
+   color: #fff;
+}
+
+.table th {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.doctor-table {
+    border: 2px solid #343a40 !important; /* Dark gray (Bootstrap dark) */
+    border-radius: 8px;
+}
+
+.availability-table {
+    margin-top: 10px;
+    border: 1px solid #dee2e6;
+    background-color: #fdfdfd;
+}
+
+.availability-table thead {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.availability-table th,
+.availability-table td {
+    text-align: center;
+}
+
+a.btn-warning,
+button.btn-warning {
+    color: #212529;
+}
+
+a:hover,
+button:hover {
+    opacity: 0.9;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;  /* Ensures consistent vertical and horizontal borders */
+    background-color: #f1f1f1;
+}
+
+th {
+    background-color: #f1f1f1; /* same as .availability-section */
+    color: #333;
+    border: 1px solid #ccc;
+}

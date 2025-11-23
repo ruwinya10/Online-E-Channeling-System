@@ -1,0 +1,113 @@
+
+May 11, 2025 18:15:21.87 NEW SESSION
+May 11, 2025 18:15:21.87 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 11, 2025 18:15:21.87 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 11, 2025 18:15:22.09 [1884:9388:0511/181522.095:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 11, 2025 18:15:47.32 [1884:9388:0511/181547.316:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 11, 2025 18:16:41.33 [1884:9388:0511/181641.335:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 11, 2025 18:18:05.00 [1884:9388:0511/181805.009:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 11, 2025 18:21:19.19 [1884:9388:0511/182119.193:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 11, 2025 18:26:58.61 [1884:9388:0511/182658.611:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 11, 2025 19:01:57.34 [1884:9388:0511/183247.406:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+May 11, 2025 19:01:57.41 [1884:9388:0511/190157.416:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -105
+May 11, 2025 20:42:50.33 [1884:9388:0511/204250.329:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:483] ConnectionHandler failed with net error: -2
+May 11, 2025 21:51:17.06 [1884:9388:0511/215117.066:ERROR:google_apis\gcm\engine\connection_factory_impl.cc:434] Failed to connect to MCS endpoint with error -7
+May 11, 2025 21:51:17.09 [1884:13804:0511/215117.096:ERROR:components\sync\engine\get_updates_processor.cc:267] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_INTERNET_DISCONNECTED)
+
+May 13, 2025 23:15:27.55 NEW SESSION
+May 13, 2025 23:15:27.56 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 13, 2025 23:15:27.56 [7528:2916:0513/231527.555:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 13, 2025 23:15:27.57 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 13, 2025 23:15:48.83 [7528:2916:0513/231548.832:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 13, 2025 23:16:33.54 [7528:2916:0513/231633.540:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 13, 2025 23:18:19.19 [7528:2916:0513/231819.190:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 13, 2025 23:21:34.10 [7528:15200:0513/232134.105:ERROR:components\device_event_log\device_event_log_impl.cc:202] [23:21:34.100] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 13, 2025 23:21:35.17 [7528:2916:0513/232135.172:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 13, 2025 23:27:59.17 [7528:2916:0513/232759.178:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 24:00:39.28 [7528:2916:0514/000039.284:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 24:01:02.38 [7528:2916:0514/000102.381:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 24:01:51.98 [7528:2916:0514/000151.987:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 24:03:41.91 [7528:2916:0514/000341.916:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 24:07:04.16 [7528:2916:0514/000704.169:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 24:12:34.62 [7528:2916:0514/001234.628:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:10:18.37 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 14, 2025 01:10:18.38 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 14, 2025 01:10:18.70 [17292:9572:0514/011018.700:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:10:45.92 [17292:9572:0514/011045.920:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:11:32.89 [17292:9572:0514/011132.894:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:13:19.60 [17292:9572:0514/011319.606:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:16:54.15 [17292:9572:0514/011654.156:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:17:32.29 [17292:9496:0514/011732.291:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:725] Message 1 rejected by interface blink.mojom.WidgetHost
+May 14, 2025 01:22:22.96 [17292:9572:0514/012222.966:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 14, 2025 01:34:28.13 [17292:9496:0514/013428.134:ERROR:chrome\browser\ui\webui\new_tab_page\new_tab_page_handler.cc:1353] NewTabPage loaded into a non-browser-tab context
+
+May 15, 2025 09:56:27.30 NEW SESSION
+May 15, 2025 09:56:27.31 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2025 09:56:27.31 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 15, 2025 09:56:27.39 [14896:6204:0515/095627.390:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 09:56:49.56 [14896:6204:0515/095649.567:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 09:57:31.26 [14896:6204:0515/095731.261:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 09:59:23.40 [14896:6204:0515/095923.407:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 10:02:16.59 [14896:6204:0515/100216.599:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 10:08:10.20 [14896:6204:0515/100810.208:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+May 15, 2025 13:32:30.88 NEW SESSION
+May 15, 2025 13:32:30.89 [14148:12904:0515/133230.879:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 13:32:31.24 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2025 13:32:31.24 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 15, 2025 13:32:56.97 [14148:12904:0515/133256.977:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 13:33:43.01 [14148:12904:0515/133343.012:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 13:35:41.90 [14148:12904:0515/133541.903:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 13:38:59.07 [14148:12904:0515/133859.078:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 13:44:55.12 [14148:12904:0515/134455.127:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 13:59:44.99 [14148:12904:0515/135944.994:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 14:00:08.96 [14148:12904:0515/140008.968:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 14:01:02.50 [14148:12904:0515/140102.507:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 14:02:58.01 [14148:12904:0515/140258.016:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 14:05:45.89 [14148:12904:0515/140545.892:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 14:11:59.52 [14148:12904:0515/141159.522:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 15, 2025 14:18:59.10 [11676:9168:0515/141859.107:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 14:18:59.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2025 14:18:59.14 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 15, 2025 14:19:22.72 [11676:9168:0515/141922.728:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 14:20:05.13 [11676:9168:0515/142005.132:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+May 15, 2025 14:21:59.66 [11676:9168:0515/142159.667:ERROR:google_apis\gcm\engine\registration_request.cc:274] Registration URL fetching failed.
+
+May 20, 2025 22:15:41.12 NEW SESSION
+May 20, 2025 22:15:41.12 [4968:19364:0520/221541.122:ERROR:CONSOLE:1] "Failed to fetch icon: devtools://devtools/bundled/Images/edge-airlock.svg
+May 20, 2025 22:15:41.13 TypeError: Failed to fetch", source: devtools://devtools/bundled/panels/edge_welcome/edge_welcome.js (1)
+May 20, 2025 22:15:41.13 [4968:19364:0520/221541.125:ERROR:CONSOLE:1] "Failed to fetch icon: devtools://devtools/bundled/Images/edge-run_command.svg
+May 20, 2025 22:15:41.13 TypeError: Failed to fetch", source: devtools://devtools/bundled/panels/edge_welcome/edge_welcome.js (1)
+May 20, 2025 22:15:42.07 [4968:19364:0520/221542.075:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 20, 2025 23:39:10.88 [4968:19364:0520/233910.884:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 20, 2025 23:39:10.91 [4968:19364:0520/233910.912:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 20, 2025 23:39:11.91 [4968:19364:0520/233911.912:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 20, 2025 23:39:16.18 [4968:19364:0520/233916.187:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 20, 2025 23:39:16.20 [4968:19364:0520/233916.206:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 20, 2025 23:39:17.51 [4968:19364:0520/233917.515:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+
+May 21, 2025 12:21:54.13 NEW SESSION
+May 21, 2025 12:21:54.16 [17844:21020:0521/122154.134:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:21:55.33 [17844:21020:0521/122155.330:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:21:55.41 [17844:21020:0521/122155.414:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:21:55.82 [17844:21020:0521/122155.819:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:16.24 [17844:21020:0521/122216.249:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://office.com/
+May 21, 2025 12:22:18.28 [17844:21020:0521/122218.281:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://www.office.com/
+May 21, 2025 12:22:19.09 [17844:21020:0521/122219.097:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:19.11 [17844:21020:0521/122219.110:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:20.35 [17844:21020:0521/122220.350:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://login.live.com/Me.srf?wa=wsignin1.0&wreply=https://www.office.com/
+May 21, 2025 12:22:20.35 [17844:21020:0521/122220.350:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://www.office.com/
+May 21, 2025 12:22:20.35 [17844:21020:0521/122220.354:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://login.microsoftonline.com/savedusers?wreply=https://www.office.com/&appid=4345a7b9-9a63-4910-a426-35363201d503
+May 21, 2025 12:22:20.35 [17844:21020:0521/122220.354:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://www.office.com/
+May 21, 2025 12:22:21.12 [17844:21020:0521/122221.129:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:21.14 [17844:21020:0521/122221.146:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:21.14 [17844:21020:0521/122221.146:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:22.39 [17844:21020:0521/122222.397:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://mem.gfx.ms/me/mecache?partner=office&wreply=https%3A%2F%2Fwww.office.com
+May 21, 2025 12:22:22.39 [17844:21020:0521/122222.398:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://www.office.com/
+May 21, 2025 12:22:23.17 [17844:21020:0521/122223.176:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:27.35 [17844:21020:0521/122227.354:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.
+May 21, 2025 12:22:28.61 [17844:21020:0521/122228.615:ERROR:components\edge_smartscreen\browser\smartscreen_dns_resolver.cc:110] SmartScreenDnsResolver::OnComplete Error: -7 DidTimeOut: 1 URL: https://www.bing.com/search?qs=MT&pq=haematolo&sk=CSYN1LT1&sc=16-9&q=haematologist+meaning&cvid=061de497911542ad964a7289789abe21&gs_lcrp=EgRlZGdlKgYIAhAAGEAyBwgAEAAY-QcyBggBEEUYOTIGCAIQABhAMgYIAxAAGEAyBggEEAAYQDIGCAUQABhAMgYIBhAAGEAyBggHEAAYQDIGCAgQABhA0gEJMTA2MzFqMGoxqAIAsAIA&FORM=ANAB01&DAF0=1&PC=U531
+
+May 23, 2025 11:05:11.11 NEW SESSION
+May 23, 2025 11:05:11.12 [22468:12264:0523/110511.115:ERROR:components\sync\engine\get_updates_processor.cc:401] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
+May 23, 2025 11:05:56.50 [22468:13744:0523/110556.508:ERROR:components\sync\engine\get_updates_processor.cc:401] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_NAME_NOT_RESOLVED)
