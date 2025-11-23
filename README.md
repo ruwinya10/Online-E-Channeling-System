@@ -83,16 +83,14 @@
 
 ---
 
-## 🛠️ Technology Stack
-- **UML Modeling** (Use Cases, Sequences, Communications)  
+## 🛠️ Technology Stack  
 - **Object-Oriented Design (OOP)**  
 - **Web System Architecture** (Server, DB integration, Bank API simulation)  
 - **Validation & Security** (OTP flows, file upload constraints)  
 - **Notification Services** (SMS / Email simulation)
 
 ---
-## 🎯 Learning & Development Focus
-- UML-based system analysis and documentation  
+## 🎯 Learning & Development Focus 
 - OOP design patterns for web applications  
 - External system integration (payments, notifications)  
 - Design of user-centered healthcare workflows  
@@ -101,7 +99,7 @@
 ---
 ## 📄 License
 This project was developed for academic purposes as part of:  
-IT2020 – Software Engineering  
+IT2030 – Object Oriented Programming  
 BSc (Hons) in Information Technology  
 Year 2, Semester 1, 2025  
 
