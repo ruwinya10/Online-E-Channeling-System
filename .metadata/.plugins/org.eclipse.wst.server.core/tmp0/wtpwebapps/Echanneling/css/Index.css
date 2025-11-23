@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.relative.min-h-screen.bg-cover.bg-center {
+    margin-top: 20px; /* Maintains space between header and background image */
+    padding-top: 50px; /* Moves content down */
+    padding-bottom: 50px; /* Adds space between background image and footer */
+    background-size: auto 300%; /* Maintains vertical scaling */
+    min-height: 450vh; /* Increases vertical space to make background longer below container */
+    background-position: 50% 20%;
+}
+
+.container .row {
+    width: 100%;
+    padding: 20px;
+    background: #E3F2FD;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.container .col {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container1, .container2 {
+    border: 1px solid #1976D2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.submit_btn {
+    background-color: #1976D2;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit_btn:hover {
+    background-color: #1565C0;
+}
+
+.confirm_btn {
+    background-color: #2E7D32;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+}
+
+.confirm_btn:hover {
+    background-color: #1B5E20;
+}
+
+/* Billing form */
+#billingForm input {
+    background-color: #FFFFFF;
+    border: 1px solid #424242;
+    color: #424242;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
